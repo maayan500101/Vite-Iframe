@@ -6,4 +6,4 @@ function loadFunction() {
   document.querySelector("iframe").contentWindow.postMessage(token, srcUrl);
 }
 alert(import.meta.env.VITE_NAME)
-alert(import.meta.env.REACT_APP_SHUAL_TOKEN)
+alert(import.meta.env.VITE_SHUAL_TOKEN)
