@@ -6,4 +6,4 @@ function loadFunction() {
 
   document.querySelector("iframe").contentWindow.postMessage(token, srcUrl);
 }
-alert("hello")
+alert(process.env.REACT_APP_SHUAL_TOKEN)
