@@ -1,9 +1,8 @@
 function loadFunction() {
   const token =
-    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjaXR5SWQiOjEwNywiam91cm5hbCI6ImFsbEhvc3BpdGFscyIsImlzQWRtaW4iOnRydWV9.2nG-_7H5mPS5DyEAZNE_lB4F5J-DGHC1V76q2txpz0g";
+    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJKb3VybmFsIjoiMTA5IiwiSXNBZG1pbiI6IlRydWUifQ.bVm79GZLO9-H1jE9irSJvD9Gi76LhjceHEwPuH48IVs";
   const srcUrl = "http://localhost:3000";
 
   document.querySelector("iframe").contentWindow.postMessage(token, srcUrl);
 }
-alert(import.meta.env.VITE_NAME)
-alert(import.meta.env.VITE_SHUAL_TOKEN)
+)
