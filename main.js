@@ -6,3 +6,4 @@ function loadFunction() {
 
   document.querySelector("iframe").contentWindow.postMessage(token, srcUrl);
 }
+alert("hello")
